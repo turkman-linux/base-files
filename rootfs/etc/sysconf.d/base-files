@@ -1,0 +1,8 @@
+#!/bin/sh
+if [ ! -d /data/user/root ]; then
+    mkdir /data/user/root -p
+    chown root /data/user/root
+    chmod 700 /data/user/root
+    ln -s data/user/root /root
+fi
+cat /etc/passwd.d/* > /etc/passwd
