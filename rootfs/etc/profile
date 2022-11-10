@@ -1,5 +1,11 @@
 #!/bin/sh
-export PATH="/usr/bin:/bin"
+# Remove all environ variables
+for e in $(env | sed "s/=.*//g")
+do
+    unset "$e" &>/dev/null
+done
+
+# import profile.d
 if [ -d /etc/profile.d ]; then
   for i in /etc/profile.d/*.sh; do
     if [ -r $i ]; then
