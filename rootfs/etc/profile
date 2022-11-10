@@ -2,7 +2,7 @@
 # Remove all environ variables
 for e in $(env | sed "s/=.*//g")
 do
-    unset "$e" &>/dev/null
+    unset "$e" | :
 done
 
 # import profile.d
