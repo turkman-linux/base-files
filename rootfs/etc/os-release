@@ -1,8 +1,0 @@
-PRETTY_NAME="Sulix Linux"
-NAME="Sulix"
-VERSION_CODENAME=roolling
-ID=sulix
-HOME_URL="https://gitlab.com/sulix/"
-SUPPORT_URL="https://gitlab.com/sulix/"
-BUG_REPORT_URL="https://gitlab.com/sulix/"
-ANSI_COLOR="5;31"
