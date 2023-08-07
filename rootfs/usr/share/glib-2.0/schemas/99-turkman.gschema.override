@@ -1,0 +1,9 @@
+[org.gnome.desktop.background]
+picture-uri = 'file:///usr/share/turkman/default-background.svg'
+
+[org.gnome.desktop.screensaver]
+picture-uri = 'file:///usr/share/turkman/default-background.svg'
+
+[org.cinnamon.desktop.background]
+picture-uri = 'file:///usr/share/turkman/default-background.svg'
+
